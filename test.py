@@ -15,7 +15,7 @@ n_classes = 10
 n_feat = 256 # 128 ok, 256 better (but slower)
 
 save_model = True
-model_save_dir = '/media/data1/geonho/ddpm_mnist/model_cifar10_29.pth'
+model_save_dir = 'your_path/model_cifar10_29.pth'
 testroot = './test_result/'
 ws_test = [0.0, 0.5, 2.0] # strength of generative guidance'
 data_shape = (3, 32, 32)
